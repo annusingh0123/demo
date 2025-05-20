@@ -1,0 +1,19 @@
+{
+  "name": "solina-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annusingh0123/solina_html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annusingh0123/solina_html/issues"
+  },
+  "homepage": "https://github.com/annusingh0123/solina_html#readme",
+  "description": ""
+}

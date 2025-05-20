@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap");
+
+:root {
+  --main_color: #ccb999;
+  --primary-color: #2e3136;
+  --secondary-color: #590d0d;
+  --text-color: #656565;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+*::selection {
+  background: var(--main_color);
+  color: #fff;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s linear;
+  padding: 0;
+  margin: 0;
+  /* WebKit  */
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+button:focus,
+a.btn:focus,
+.btn:focus {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+h1 {
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 5.6rem;
+  line-height: 7.2rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 4rem;
+  line-height: 7.2rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+  /* line-height: 1.2380952381; */
+}
+h5 {
+  font-size: 2.8rem;
+}
+h6 {
+  font-size: 2.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+section {
+  padding: 5rem 0rem;
+}
+
+p {
+  color: var(--text-color);
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-bottom: 0px;
+  line-height: 1.2rem;
+  font-size: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+button:focus,
+a.btn:focus {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
